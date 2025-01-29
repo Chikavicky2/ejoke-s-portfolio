@@ -1,0 +1,217 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    margin: 0;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #e74c3c;
+  }
+  
+  /* Home Section */
+  .home-section {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #3498db, #9b59b6);
+    color: white;
+  }
+  
+  .home-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .home-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .home-section button a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-section button a:hover {
+    background-color: #c0392b;
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    padding: 80px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .projects-section h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .project-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .contact-section label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-section input:focus,
+  .contact-section textarea:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .contact-section button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-section button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  footer p {
+    margin: 0;
+  }#thankYouMessage {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
